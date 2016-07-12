@@ -30,6 +30,16 @@ The default browser is `w3m`. However, there is explicit support for the followi
 | `mplayer`    | Display videos          |
 | `youtube-dl` | Download youtube videos |
 
+# Use with `rtv`
+
+In order to have `topen` play nice with `rtv`, the `$DISPLAY` environment variable must be set to something that evaluates as false. I use the following alias:
+
+```
+alias rtv='export DISPLAY="";rtv'
+```
+
+`topen` will try to autodetect the `$DISPLAY` variable and set it back before running any handler scripts.
+
 # Contributing
 
 If you find a site that might benefit from having a script for it, submit an issue with the name of the site (and ideally some example links). Or, even better, submit a PR!
