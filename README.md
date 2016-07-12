@@ -16,19 +16,20 @@ The default browser is `w3m`. However, there is explicit support for the followi
 | -------------- | ------------------------------------------------- |
 | Any image link |                                                   |
 | Any mp4 file   |                                                   |
-| Imgur          | Works with gifv and single images, but not albums |
+| Imgur          | Works with gifvs, single images, and albums       |
 | Gfycat         | Any gfycat link                                   |
 
 # Dependencies
 
-| Dependency   | Reason                  |
-| ------------ | ----------------------- |
-| `python`     | Main script             |
-| `w3m`        | Default browser         |
-| `curl`       | Download images/videos  |
-| `feh`        | Display images          |
-| `mplayer`    | Display videos          |
-| `youtube-dl` | Download youtube videos |
+| Dependency       | Reason                  |
+| ---------------- | ----------------------- |
+| `python`         | Main script             |
+| `w3m`            | Default browser         |
+| `curl`           | Download images/videos  |
+| `feh`            | Display images          |
+| `mplayer`        | Display videos          |
+| `youtube-dl`     | Download youtube videos |
+| Beautiful Soup 4 | Download imgur albums   |
 
 # Use with `rtv`
 

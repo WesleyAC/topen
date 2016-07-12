@@ -15,6 +15,7 @@ helpers = [
     [r"http(s)?://[A-Za-z0-9\-\.]+\.[A-Za-z]+/.*(\.png|\.jpg|\.jpeg)$", "generic-image.sh"],
     [r"http(s)?://(i\.)?imgur\.com/[\w]+\.gifv", "imgur-gifv.sh"],
     [r"http(s)?://(i\.)?imgur\.com/[\w]+(/)?$", "imgur-single.sh"],
+    [r"http(s)?://(i\.)?imgur\.com/a/[\w]+(/)?$", "imgur-album.py"],
     [r"http(s)?://(www\.)?youtube\.com/watch.", "youtube.sh"],
     [r"http(s)?://gfycat\.com/[a-zA-Z]", "gfycat.sh"],
     [r"http(s)?://[A-Za-z0-9\-\.]+\.[A-Za-z]+/.*\.mp4$", "generic-mp4.sh"],
