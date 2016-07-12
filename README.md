@@ -1,5 +1,7 @@
 # topen
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/WesleyAC/topen/blob/master/LICENSE)
+
 `topen` is a small script to open links on the command line. It's designed to be able to view multimedia content (images, videos, gifs, etc) without the overhead of a web browser. `topen` is designed to be used with [rtv](https://github.com/michael-lazar/rtv), but could be useful in other contexts as well.
 
 # How it works
